@@ -1,0 +1,44 @@
+
+h1{
+    text-align: center;
+    background-color: plum;
+    border-radius: 10px;
+}
+.main-con{
+    width:100%;
+    background-color: bisque;
+    display: flex;
+    flex-wrap: wrap;
+      
+}
+.parent-con{
+    background-color: steelblue;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    text-align: center;  
+}
+@media screen and(max-width:600px){
+    .parent-con{
+        flex:100%;
+    }
+}
+.image{
+    width:200px;
+    height: 200px;
+    position: relative;
+    border-radius: 100px;
+}
+button{
+    cursor: pointer;
+    width:100px;
+    margin:10px;
+    background-color:white;
+    padding: 10px;
+    border-radius: 50px;
+}
+button:hover{
+    background-color: rgba(223, 45, 199, 0.568);
+}
